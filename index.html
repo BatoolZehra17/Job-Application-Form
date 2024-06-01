@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body style="background-color: grey;">
+<form action="">
+    <div style="background-color: white; padding: 20px ;max-width: 600px;margin: auto; margin-top: 50px;border-radius: 10px;"  ; >
+        <h1>Job Application<sub>(Web)</sub></h1>
+        <!--First name-->
+        <div>
+        <label for="first name" >First name:</label>
+        <input id="" name="first name" placeholder="Enter First name... " required> 
+        <br><br>
+        <!--Last name-->
+        <label for="last name" >Last name:</label>
+        <input id="" name="last name" placeholder="Enter Last name..." required>
+        <br><br>
+        <!--Email-->
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email...." required>
+        <br><br>
+        <!--Job Role-->
+        <label for="job role">Job Role:</label>
+        <select id="job role" required>
+        <option value="">Select Job role</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="FrontEnd Developer">FrontEnd Developer</option>
+        <option value="Fullstack Developer">Fullstack Developer</option>
+        </select>
+        <br><br>
+        <!--Address-->
+        <label for="address">Enter Address:</label><br>      
+        <textarea name="address" id="address" placeholder="Enter Address" cols="30" rows="5" required></textarea>
+        <br><br>
+        <!--City-->
+        <label for="city">City:</label>
+        <input  id="city" name="city" placeholder="Enter City...." required>
+        <br><br>
+        <!---Pincode-->
+        <label for="pincode">Pincode:</label>
+        <input type="number" id="pincode" name="pincode" placeholder="Enter Pincode...." required>
+        <br><br>
+        <!--Date-->
+        <label for="date">Start Date:</label>
+        <input type="date" id="date" name="date" value="2022-08-17" required>
+        <br><br>
+        <!---Adding CV-->
+        <label for="upload">Upload Your CV:</label>
+        <input type="file" id="upload" name="upload" required>
+        <br><br>
+        <center>
+        <button type="submit" style="background-color: red; color: white; border-radius: 7px; padding: 5px;">Apply Now</button>
+        </center>
+    </div>
+    
+    </form>
+    
+</body>
+</html>
